@@ -1,0 +1,73 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Space below the table */
+}
+th, td {
+    border: 1px solid #ccc; /* Border for table cells */
+    padding: 10px; /* Padding inside cells */
+    text-align: left; /* Align text to the left */
+}
+th {
+    background-color: #ff6f61; /* Blue background for header */
+    color: white; /* White text for header */
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #ff6f61;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none; /* Remove border for button */
+    cursor: pointer; /* Pointer cursor for button */
+}
+
+@media (max-width: 680px) {
+    table {
+        width: 100%; 
+    }
+
+    .product-image {
+        width: 80px; 
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .total-amount {
+        font-size: 1.2em; 
+    }
+}
+body {
+    margin-top: 100px; 
+}
+
+
+.main-content {
+    padding-top: 20px; 
+}
+
+
+
+
+
+h1 {
+    margin-bottom: 20px; 
+
+    text-align: center; 
+
+
+}
+
+table {
+    margin-top: 20px; 
+}
